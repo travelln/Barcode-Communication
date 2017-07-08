@@ -1,0 +1,12 @@
+[Unit]
+Description=Carrier pigeon modem software
+Documentation=man:pigeond(1)
+Wants=capemgr.service
+
+[Service]
+ExecStart=/usr/bin/pigeond
+EnvironmentFile=-/etc/default/pigeond
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
