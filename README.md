@@ -1,5 +1,6 @@
 
-<img src="https://github.com/travelln/Barcode-Communication/blob/master/logo.png" width="80">
+<img src="https://github.com/travelln/Barcode-Communication/blob/master/logo.png" width="180">
+
 # Ethernet Modem for IP Over Avian Carriers 
 
 Created for CMPT 433, and based loosely on RFC 1149.
